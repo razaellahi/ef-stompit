@@ -1,35 +1,17 @@
 {
-  "_from": "ef-stompit",
-  "_id": "ef-stompit@1.0.0",
-  "_inBundle": false,
-  "_integrity": "sha512-He+ZV41LyCs4WNpMT9WFAuhQ6cUNhzfa+PsRlf7qxGIfMhDCUncnD9V7Cwvo8tzvpnwVyRB2BDG3R7I2Gbv4Ww==",
-  "_location": "/ef-ef-stompit",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "ef-stompit",
-    "name": "ef-stompit",
-    "escapedName": "ef-stompit",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
+  "name": "ef-stompit",
+  "version": "1.0.0",
+  "description": "A STOMP client library for Node.js that is fully compatible with STOMP 1.0, 1.1 \r and 1.2 servers. The library provides optional fault tolerance features such as \r multiple server failover and persistent subscriptions and message publishing \r across failure events. The API is designed to be consistent with idiomatic \r Node.js code. Messages are stream oriented. The client supports any \r stream.Duplex transport, such as for example tls.TLSSocket.",
+  "main": "lib/index.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   },
-  "_requiredBy": [
-    "#USER",
-    "/"
-  ],
-  "_shasum": "2fd3aaae9c8dd6bc9cc0a83ca359205992748f5b",
-  "_spec": "ef-stompit",
-  "_where": "D:\\EF\\node-express-mongoose-boilerplate",
-  "bugs": {
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "qs": "~6.9.1"
   },
-  "deprecated": false,
-  "description": "STOMP client library for node.js",
   "devDependencies": {
     "jshint": "^2.10.2",
     "mocha": "^5.2.0",
@@ -44,15 +26,18 @@
     "activemq",
     "rabbitmq"
   ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "name": "ef-stompit",
-  "repository": {
-    "type": "git"
-  },
   "scripts": {
     "coverage": "nyc npm t",
     "test": "mocha --recursive --exit && jshint ."
   },
-  "version": "1.0.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razaellahi/ef-stompit.git"
+  },
+  "author": "raza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/razaellahi/ef-stompit/issues"
+  },
+  "homepage": "https://github.com/razaellahi/ef-stompit#readme"
 }
