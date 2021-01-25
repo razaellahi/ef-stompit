@@ -1,5 +1,7 @@
 # stompit [![Build Status](https://travis-ci.org/gdaws/node-stomp.png)](https://travis-ci.org/gdaws/node-stomp)
 
+This package is created from the pull request, https://github.com/gdaws/stompit/pull/102/files
+
 A STOMP client library for Node.js that is fully compatible with STOMP 1.0, 1.1 
 and 1.2 servers. The library provides optional fault tolerance features such as 
 multiple server failover and persistent subscriptions and message publishing 
