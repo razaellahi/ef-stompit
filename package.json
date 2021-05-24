@@ -1,6 +1,6 @@
 {
   "name": "ef-stompit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A STOMP client library for Node.js that is fully compatible with STOMP 1.0, 1.1 \r and 1.2 servers. The library provides optional fault tolerance features such as \r multiple server failover and persistent subscriptions and message publishing \r across failure events. The API is designed to be consistent with idiomatic \r Node.js code. Messages are stream oriented. The client supports any \r stream.Duplex transport, such as for example tls.TLSSocket.",
   "main": "lib/index.js",
   "directories": {
